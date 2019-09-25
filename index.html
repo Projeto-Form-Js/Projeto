@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prova</title>
+ 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	 	
+ 	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+<div class="container" >
+	<div>
+			
+			<h2>Formulário</h2>
+			<div>
+				<label for="nome"><strong>Nome:</strong></label>
+				<input type="text" class="form-control" id="nome" >
+			</div>
+			<div>	
+				<label for="telefone"><strong>Telefone:</strong></label>
+				<input type="text" class="form-control" id="telefone" placeholder="99-99999999" >
+			</div>
+
+			<div>
+			<label><strong>Como nos conheceu:</strong></label>	
+			<select class="form-control" id="conhecimento">
+				<option value="Tv">Tv</option>
+				<option value="Internet">Internet </option>
+				<option value="Outros">Outros</option>
+			</select>
+			</div>
+
+			<div>
+				<label><strong>Possui rede social:</strong></label>	
+				<div class="radio">
+	  				<div><label><input type="radio" name="possuiRedeSocial"  checked >Não</label></div>
+	  				<div><label><input type="radio" name="possuiRedeSocial" value="true" >Sim</label></div>
+				</div>
+			</div>
+
+			<div id="esconde" style="display: none">
+				<label><strong>Quais:</strong></label>
+				<div>	
+					<label class="checkbox-inline right">
+						<input type="checkbox"  name="redeSocial]" class="right checkboxes" value="Facebook">Facebook </label>
+					<label class="checkbox-inline right"><input type="checkbox" name="redeSocial" class="right checkboxes" value="LinkedIn">LinkedIn </label>
+					<label class="checkbox-inline right"><input type="checkbox" name="redeSocial" class="right checkboxes" value="Instagram">Instagram</label>
+				</div>	
+			</div>
+
+
+			<button type="submit" class="btn btn-info" id="submit">Enviar</button>
+			<div id="resultado">
+			</div>	
+	
+<div>
+
+</div>
+
+
+
+
+	
+
+</body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="js/myScript.js"></script>
+
+</html>
+
